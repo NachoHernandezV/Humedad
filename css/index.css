@@ -1,0 +1,63 @@
+body{
+    background-image: url("../imagenes/fondo1.jpg");
+    background-size: cover;
+       -moz-background-size: cover;
+       -webkit-background-size: cover;
+       -o-background-size: cover;
+}
+#contenedor{
+    width: 100%;
+    background-color: rgba(220,220,220,0.5);
+    margin: 7% auto;
+    padding-bottom: 30px;
+}
+img{
+    opacity:1;
+}
+.boton2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7bb876), color-stop(1, #68a54b));
+	background:-moz-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:-webkit-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:-o-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:-ms-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:linear-gradient(to bottom, #7bb876 5%, #68a54b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7bb876', endColorstr='#68a54b',GradientType=0);
+	background-color:#7bb876;
+	border:1px solid #86bd6a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:3px 11px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #7bb876));
+	background:-moz-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:-webkit-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:-o-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:-ms-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:linear-gradient(to bottom, #68a54b 5%, #7bb876 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#7bb876',GradientType=0);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+  .boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#0B3B17;
+        border:0px;
+        width:70px;
+        height:19px;
+       }

@@ -1,0 +1,298 @@
+*{ /*el primero es el espacio entre arriba, abajo,izq y der con respoecto a la pantalla
+el segundo es el espacio arriba, abajo,izq y der entre los elementos fronterizos*/
+margin: 0px;
+padding: 0px;
+}
+body{
+   background-image: url("../imagenes/background.png");
+}
+
+#contenedor-header{
+  width: 75%;
+  /*border: 1px solid black;*/
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0PX auto;
+}
+#contenedor-flex{
+  width: 75%;
+  /*border: 1px solid black;*/
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  align-items: stretch;
+  margin: 10PX auto;
+}
+#formulario {
+    width: 75%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    padding: 20px;
+    padding-bottom: 65px;
+}
+#reportes{
+      width: 25%;
+      background-color: #DCDCDC;
+      margin: 10PX auto;
+      margin-left: 20px;
+      align-items: center;
+      padding: 10px;
+          padding-bottom: 65px;
+}
+h3{
+  width: 75%;
+  margin: 0PX auto 10px auto;
+  padding: 10px 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #DCDCDC;
+}
+/*PARA LAS CAJAS DE TEXTO*/
+input[type=text], input[type=date],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*FIN DE LAS CAJAS DE TEXTO*/
+
+/*CSS PARA EL BOTON */
+.botoninsertar{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 5px;
+    border: none;
+    margin-left: 25%;
+    margin-top: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.botoninsertar:hover {
+    background-color: #45a049;
+}
+.boton{
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 5px;
+    border: none;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.boton:hover {
+    background-color: #45a049;
+}
+/*FIN DEL BOTON*/
+
+/*PARA EL CHECKBOX*/
+input[type=checkbox]
+{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari y Chrome */
+  -o-transform: scale(2); /* Opera */
+  margin: 8px;
+  border: 1px solid black;
+}
+#tituloreporte{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+}
+#titulofecha{
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#tituloreporte2{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align:center;
+}
+#elemenoseditar{
+  width: 100%;
+  margin-top: 85px;
+  font-size: 18px;
+}
+.tituloprincipal{
+  font-size: 38px;
+  font-weight: bold;
+}
+header{
+   background-image: url("../imagenes/wheat12.jpg");
+   margin-bottom: 40px;
+}
+
+#pie{
+  background: #CCCCCC;
+  text-align: center;
+  padding: 7px;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+
+}
+.logo {
+    width:130px;
+    height:90px;
+}
+.imagenuser{
+  width:50px;
+  height:50px;
+}
+
+
+
+
+@media screen and (max-width:1366px)
+{
+  .tituloprincipal{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  #formulario {
+      width: 75%;
+      margin: 0px auto;
+      border-radius: 5px;
+      background-color: #DCDCDC;
+      padding: 10px;
+  }
+  #reportes{
+        width: 25%;
+        background-color: #DCDCDC;
+        margin: 0PX auto;
+        margin-left: 10px;
+        align-items: center;
+        padding: 10px;
+  }
+  h3{
+    width: 75%;
+    margin: 0PX auto 10px auto;
+    padding: 6px 0px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #DCDCDC;
+  }
+  input[type=text], input[type=date],select {
+      width: 100%;
+      padding: 5px 20px;
+      margin: 5px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+
+  input[type=checkbox]
+  {
+
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    margin: 8px;
+    border: 1px solid black;
+  }
+
+  /*input[type=submit] {
+      width: 40%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 5px;
+      border: none;
+      margin-left: 30%;
+      margin-top: 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid black;
+  }*/
+
+  #tituloreporte{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align:center;
+  }
+  #tituloreporte2{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align:center;
+  }
+
+
+  /*CSS PARA EL BOTON */
+  .botoninsertar{
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 5px;
+    border: none;
+    margin-left: 30%;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+
+  .boton{
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 2px;
+    border: none;
+    margin-left: 30%;
+    margin-top: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+    }
+
+  #pie{
+    position: absolute;
+     bottom: 0;
+     width: 99%;
+    font-size: 10px;
+  }
+
+  .logo {
+      width:100px;
+      height:70px;
+  }
+  .imagenuser{
+    width:40px;
+    height:40px;
+  }
+  .letrasUser{
+        font-size: 12px;
+  }
+}

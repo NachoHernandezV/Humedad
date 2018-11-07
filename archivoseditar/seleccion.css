@@ -1,0 +1,111 @@
+*{ /*el primero es el espacio entre arriba, abajo,izq y der con respoecto a la pantalla
+el segundo es el espacio arriba, abajo,izq y der entre los elementos fronterizos*/
+margin: 0px;
+padding: 0px;
+}
+body{
+   background-image: url("background.png");
+
+}
+#contenedor-header{
+  width: 87%;
+  /*border: 1px solid black;*/
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0PX auto;
+}
+#contenedor-flex{
+  width: 92%;
+  /*border: 1px solid black;*/
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  align-items: stretch;
+  margin: 5PX auto;
+}
+#formulario {
+    width: 92%;
+    margin: 15px auto;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+h3{
+  width: 75%;
+  margin: 0PX auto 6px auto;
+  padding: 5px 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #DCDCDC;
+}
+/*PARA LAS CAJAS DE TEXTO*/
+input[type=text], input[type=date],select {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/*FIN DE LAS CAJAS DE TEXTO*/
+
+/*CSS PARA EL BOTON */
+.botoninsertar{
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 5px;
+    border: none;
+    margin-left: 25%;
+    margin-top: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.botoninsertar:hover {
+    background-color: #45a049;
+}
+
+#tituloreporte{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+}
+#titulofecha{
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#tituloreporte2{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align:center;
+}
+#elemenoseditar{
+  width: 100%;
+  margin-top: 85px;
+  font-size: 18px;
+}
+.tituloprincipal{
+  font-size: 38px;
+  font-weight: bold;
+}
+
+
+.logo {
+    width:130px;
+    height:90px;
+}
